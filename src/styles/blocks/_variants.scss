@@ -1,0 +1,37 @@
+.variants {
+  padding: 104px 0 104px;
+}
+
+.variants_inner {
+  @include inner;
+}
+
+.variants_title {
+  @include title;
+}
+
+.filter_list {
+  margin-bottom: 60px;
+  display: flex;
+  list-style: none;
+  color: #000;
+  background-color: #fff;
+}
+
+.filter_item {
+  padding: 16px 120px 16px 24px;
+  border-right: 1px solid #E4E4E4;
+
+  &.input {
+    border-right: 0;
+  }
+}
+
+.filter_input {
+  flex-basis: 50%;
+  border: 0;
+
+  &::placeholder {
+    width: 100%;
+  }
+}

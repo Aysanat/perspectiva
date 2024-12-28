@@ -1,0 +1,54 @@
+.promo {
+  background-color: #000;
+  background-image: url('../images/persp-promo-24.svg');
+  background-repeat: no-repeat;
+}
+
+.promo_inner {
+  @include inner;
+}
+
+.promo_row {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.promo_half {
+  flex-basis: calc(50% - 32px / 2);
+}
+
+.promo_text {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  color: rgba(#fff, .3);
+}
+
+.promo_title {
+  margin-bottom: 32px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58.51px;
+}
+
+.promo_btn {
+  display: inline-block;
+  padding: 16px 125px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: #fff;
+  text-decoration: none;
+  background-color: $color-accent;
+}
+
+.promo_visual {
+  display: inline-block;
+}
+
+.promo_image {
+  width: 100%;
+}

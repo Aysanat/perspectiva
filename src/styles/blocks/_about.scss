@@ -1,0 +1,34 @@
+.about {
+  padding-bottom: 104px;
+}
+
+.about_inner {
+  @include inner;
+}
+
+.about_title {
+  @include title;
+}
+
+.about_advantages {
+  margin-bottom: 48px;
+  margin-left: 225px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about_text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: left;
+}
+
+.about_correct {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  color: rgba(#fff, .5);
+}

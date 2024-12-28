@@ -1,0 +1,10 @@
+@mixin inner {
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+@mixin title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48.76px;
+}
