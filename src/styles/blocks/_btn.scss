@@ -1,7 +1,7 @@
 .btn {
   display: inline-block;
   padding: 16px 125px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 19.5px;
@@ -16,9 +16,10 @@
 }
 
 .form_btn {
+  margin-top: 16px;
   padding: 16px 0 16px;
   width: 100%;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 19.5px;
@@ -27,4 +28,5 @@
   background-color: $color-accent;
   border: 1px solid $color-accent;
   border-radius: 4px;
+  cursor: pointer;
 }

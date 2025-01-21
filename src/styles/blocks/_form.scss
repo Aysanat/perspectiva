@@ -1,0 +1,30 @@
+.form {
+  padding-left: 225px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px
+}
+
+.form_text {
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  color: rgba(#fff, .5);
+}
+
+.form_field {
+  width: 40%;
+}
+
+.form_input {
+  width: 100%;
+  padding: 16px 0 16px 24px;
+  border: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+  &.comment {
+    padding-bottom: 78px;
+  }
+}

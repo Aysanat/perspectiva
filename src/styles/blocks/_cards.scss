@@ -1,15 +1,16 @@
 .cards {
   padding-right: 11px;
   display: flex;
+  flex-wrap: wrap;
   gap: 44px
 }
 
-.cards_block {
+.card {
   position: relative;
   flex-basis: calc(33.33% - 88px / 3);
 }
 
-.cards_back {
+.card_back {
   right: -12px;
   top: -12px;
   position: absolute;
@@ -19,26 +20,28 @@
   border-radius: 4px;
 }
 
-.cards_content {
+.card_content {
   height: 100%;
   position: relative;
   color: $color-dark;
   background-color: #fff;
+  border-radius: 4px;
 }
 
-.cards_visual {
+.card_visual {
   max-width: 407px;
 }
 
-.cards_image {
+.card_image {
   width: 100%;
+  border-radius: 4px;
 }
 
-.cards_info {
+.card_info {
   padding: 24px 13px 24px 24px;
 }
 
-.cards_title {
+.card_title {
   margin-bottom: 21px;
   font-size: 20px;
   font-weight: 600;
@@ -46,18 +49,24 @@
   color: $color-accent;
 }
 
-.cards_list {
+.card_list {
   display: flex;
   flex-direction: column;
   gap: 8px;
   list-style: none;
 }
 
-.cards_item {
+.card_item {
   display: flex;
   gap: 32px;
 }
 
-.cards_text {
+.card_metro {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card_text {
   flex-basis: calc(50% - 32px / 2);
 }

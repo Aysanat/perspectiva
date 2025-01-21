@@ -1,5 +1,12 @@
 .promo {
+  // background-color: #000;
+}
+
+.promo_fill {
   background-color: #000;
+}
+
+.promo_back {
   background-image: url('../images/persp-promo-24.svg');
   background-repeat: no-repeat;
 }
@@ -33,17 +40,17 @@
   line-height: 58.51px;
 }
 
-.promo_btn {
-  display: inline-block;
-  padding: 16px 125px;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 19.5px;
-  color: #fff;
-  text-decoration: none;
-  background-color: $color-accent;
-}
+// .promo_btn {
+//   display: inline-block;
+//   padding: 16px 125px;
+//   font-family: Montserrat;
+//   font-size: 16px;
+//   font-weight: 600;
+//   line-height: 19.5px;
+//   color: #fff;
+//   text-decoration: none;
+//   background-color: $color-accent;
+// }
 
 .promo_visual {
   display: inline-block;
