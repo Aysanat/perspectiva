@@ -70,3 +70,8 @@
 .card_text {
   flex-basis: calc(50% - 32px / 2);
 }
+
+.card_link {
+  position: absolute;
+  inset: 0;
+}
