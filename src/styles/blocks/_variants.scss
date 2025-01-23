@@ -19,20 +19,23 @@
 }
 
 .filter_item {
-  padding: 16px 120px 16px 24px;
+  padding: 0px 24px 0px 24px;
   border-right: 1px solid #E4E4E4;
   align-items: center;
   justify-content: space-between;
   display: flex;
 
   &.input {
+    width: 100%;
+    padding: 16px 0 16px 24px;
     border-right: 0;
   }
 }
 
 .filter_text {
   display: block;
-  margin-right: auto;
+  flex-shrink: 0;
+  margin-right: 100px;
 }
 
 .filter_input {
